@@ -7,7 +7,7 @@ import * as RiIcons from 'react-icons/ri';
 export const SidebarData = [
   {
     title: 'Dashboard',
-    path: '/super-admin/dashboard/overview',
+    path: '/',
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />
@@ -26,63 +26,45 @@ export const SidebarData = [
     // ]
   },
   {
-    title: 'Users',
-    path: '/super-admin/dashboard/manage-user/overview',
+    title: 'Student',
+    path: '/student/dashboard',
     icon: <IoIcons.IoMdPeople />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
     subNav: [
       {
-        title: 'Customers',
-        path: '/super-admin/dashboard/customers/overview',
+        title: 'All Student',
+        path: '/student/dashboard/all',
         icon: <IoIcons.IoIosPaper />
       },
       {
-        title: 'Vendors',
-        path: '/super-admin/dashboard/vendors/overview',
+        title: 'New student',
+        path: '/student/dashboard/new',
         icon: <IoIcons.IoIosPaper />
       },
-      {
-        title: 'Admin',
-        path: '/super-admin/dashboard/admin/overview',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'Super ADmin',
-        path: '/super-admin/dashboard/super-admin/overview',
-        icon: <IoIcons.IoIosPaper />
-      }
+     
     ]
   },
   {
-    title: 'Products',
-    path: '/super-admin/dashboard/products/overview',
+    title: 'Computer',
+    path: '/computer',
     icon: <FaIcons.FaCartPlus />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
     subNav: [
       {
-        title: 'All Products',
-        path: '/super-admin/dashboard/all-products/overview',
+        title: 'All Computer',
+        path: '/computer/allcomputer',
         icon: <IoIcons.IoIosPaper />
       },
       {
-        title: 'Review',
-        path: '/super-admin/dashboard/review/overview',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'Orders',
-        path: '/super-admin/dashboard/orders/overview',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'Add Product',
-        path: '/super-admin/dashboard/addproduct/overview',
+        title: 'Booking',
+        path: '/computer/booking',
         icon: <IoIcons.IoIosPaper />
       }
+      
     ]
   },
   {
