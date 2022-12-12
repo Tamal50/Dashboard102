@@ -67,65 +67,65 @@ export const SidebarData = [
       
     ]
   },
-  {
-    title: 'Blogs',
-    path: '/super-admin/dashboard/blogs/overview',
-    icon: <FaIcons.FaBloggerB />,
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
+  // {
+  //   title: 'Blogs',
+  //   path: '/super-admin/dashboard/blogs/overview',
+  //   icon: <FaIcons.FaBloggerB />,
+  //   iconClosed: <RiIcons.RiArrowDownSFill />,
+  //   iconOpened: <RiIcons.RiArrowUpSFill />,
 
-    subNav: [
-      {
-        title: 'Blog Overview',
-        path: '/super-admin/dashboard/blogs/overview',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'Add New Blog',
-        path: '/super-admin/dashboard/blogs/addBlog',
-        icon: <IoIcons.IoIosPaper />
-      }
-    ]
-  },
+  //   subNav: [
+  //     {
+  //       title: 'Blog Overview',
+  //       path: '/super-admin/dashboard/blogs/overview',
+  //       icon: <IoIcons.IoIosPaper />
+  //     },
+  //     {
+  //       title: 'Add New Blog',
+  //       path: '/super-admin/dashboard/blogs/addBlog',
+  //       icon: <IoIcons.IoIosPaper />
+  //     }
+  //   ]
+  // },
  
-  {
-    title: 'Reports',
-    path: '/reports',
-    icon: <IoIcons.IoIosPaper />,
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
+  // {
+  //   title: 'Reports',
+  //   path: '/reports',
+  //   icon: <IoIcons.IoIosPaper />,
+  //   iconClosed: <RiIcons.RiArrowDownSFill />,
+  //   iconOpened: <RiIcons.RiArrowUpSFill />,
 
-    subNav: [
-      {
-        title: 'Reports',
-        path: '/reports/reports1',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      },
-      {
-        title: 'Orders Report',
-        path: '/reports/orders',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      },
-      // {
-      //   title: 'Reports 3',
-      //   path: '/reports/reports3',
-      //   icon: <IoIcons.IoIosPaper />
-      // }
-    ]
-  },
-  {
-    title: 'Messages',
-    path: '/super-admin/dashboard/massage/overview',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+  //   subNav: [
+  //     {
+  //       title: 'Reports',
+  //       path: '/reports/reports1',
+  //       icon: <IoIcons.IoIosPaper />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: 'Orders Report',
+  //       path: '/reports/orders',
+  //       icon: <IoIcons.IoIosPaper />,
+  //       cName: 'sub-nav'
+  //     },
+  //     // {
+  //     //   title: 'Reports 3',
+  //     //   path: '/reports/reports3',
+  //     //   icon: <IoIcons.IoIosPaper />
+  //     // }
+  //   ]
+  // },
+  // {
+  //   title: 'Messages',
+  //   path: '/super-admin/dashboard/massage/overview',
+  //   icon: <FaIcons.FaEnvelopeOpenText />,
 
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
-  },
-  {
-    title: 'Support',
-    path: '/support',
-    icon: <IoIcons.IoMdHelpCircle />
-  }
+  //   iconClosed: <RiIcons.RiArrowDownSFill />,
+  //   iconOpened: <RiIcons.RiArrowUpSFill />,
+  // },
+  // {
+  //   title: 'Support',
+  //   path: '/support',
+  //   icon: <IoIcons.IoMdHelpCircle />
+  // }
 ];

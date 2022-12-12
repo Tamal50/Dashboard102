@@ -1,17 +1,17 @@
 import React from "react";
-import Allstudent from "../../MainComponent/Student/Allstudent";
+import AddStudent from "../../MainComponent/Student/AddStudent";
 import { DashboardContainer } from "../DashboardStyle";
 import Sidebar from "../Sidebar";
 
-const Student = () => {
+const Newstudent = () => {
   return (
     <div>
       <DashboardContainer>
         <Sidebar />
-        <Allstudent />
-      </DashboardContainer> 
+        <AddStudent />
+      </DashboardContainer>
     </div>
   );
 };
 
-export default Student;
+export default Newstudent;

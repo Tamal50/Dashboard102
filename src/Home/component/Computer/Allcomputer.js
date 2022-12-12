@@ -1,17 +1,17 @@
 import React from "react";
-import Allstudent from "../../MainComponent/Student/Allstudent";
+import ComputerDashboard from "../../MainComponent/Computer/ComputerDashboard";
 import { DashboardContainer } from "../DashboardStyle";
 import Sidebar from "../Sidebar";
 
-const Student = () => {
+const Allcomputer = () => {
   return (
     <div>
       <DashboardContainer>
         <Sidebar />
-        <Allstudent />
-      </DashboardContainer> 
+        <ComputerDashboard />
+      </DashboardContainer>
     </div>
   );
 };
 
-export default Student;
+export default Allcomputer;
